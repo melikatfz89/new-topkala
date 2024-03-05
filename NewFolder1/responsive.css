@@ -1,0 +1,200 @@
+﻿body {
+    overflow-x:hidden;
+}
+@media screen and (min-width:100px) and (max-width:575px) {
+    .inputsearch {
+        width: 3px;
+    }
+
+    .menu {
+        height: 360px;
+    }
+
+    .menu2 {
+        height: 60px;
+    }
+
+    .boxshegeft{
+        width:328px;
+    }
+    .pishnahad2 {
+        position: absolute !important;
+        left: -53px;
+        top: 108px;
+        width: 48%;
+    }
+    ul.ulpishnahad2 {
+        width: 170px;
+    }
+    a#seeall {
+        height: 77px;
+        margin-top: 10px;
+    }
+    i.iall.fa.fa-arrow-left {
+        display: none;
+    }
+    .rowkhas {
+        width: 345px;
+        margin-right: -8px;
+    }
+    .pishnahad {
+        width: 328px;
+    }
+    .picspishnahad {
+        position: absolute;
+    }
+    .textspishnahad {
+        left: 32px;
+    }
+    #carouselshegeft> img{
+        width:100px;
+        height:100px;
+        margin-left:70px;
+        margin-top:60px;
+    }
+    .imgesside {
+        display: none;
+    }
+    .vivo{
+        display:none;
+    }
+    div#div2 {
+        margin-top: 189px;
+    }
+    .divaslitamas {
+        display: none;
+    }
+    .divasliprice {
+        display: none;
+    }
+    .colkhas{
+        display:none;
+    }
+    .expressdiv {
+
+    }
+    .expressdiv .expresschild {
+        flex-basis: 95%;
+    }
+        .expressdiv .expresschild h6 {
+            width: 86px !important;
+            font-size:12px;
+        }
+    .footerfather > .footerchild {
+        flex-basis: 90% !important;
+    }
+     .storechild2{
+        flex-basis:90% !important;
+        padding: 15px 0;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    .inputsearch {
+        width: 250px;
+    }
+    .menu {
+        height: 260px;
+    }
+    .menu2 {
+        height: 60px;
+    }
+    .pishnahad {
+        display: none;
+    }
+
+    .pishnahad2 {
+        display: none;
+    }
+    .textspishnahad {
+        left: 41px;
+        top: -32px;
+    }
+    .imgesside {
+        width: 100%;
+        height: 268px;
+    }
+    .avalislide{
+        display:none;
+    }
+    .expressdiv .expresschild {
+        flex-basis: 95%;
+    }
+    .storechild2 {
+        flex-basis: 44% !important;
+        padding: 15px 0;
+    }
+    .rowkhas > div > a> img {
+        width: 100%;
+    }
+    .footerchild.pt-4.pr-2.pb-2 {
+        flex-basis: 68% !important;
+        padding-right:50px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .inputsearch {
+        width: 317px;
+    }
+    .menu {
+        height: 160px;
+    }
+    .menu2 {
+        height: 60px;
+    }
+
+    .imgesside {
+        width: 100%;
+        height: 400px;
+    }
+    .textspishnahad {
+        left: 0;
+    }
+    .expressdiv .expresschild {
+        flex-basis: 45%;
+    }
+    .storechild2 {
+        flex-basis: 44% !important;
+        padding: 15px 0;
+    }
+    #seeall {
+        margin-top: 112px;
+        padding-bottom: 80px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .menu {
+        height: 70px;
+    }
+    .menu2 {
+        height: 60px;
+    }
+    .expressdiv .expresschild {
+        flex-basis: 17%;
+    }
+    .expressdiv {
+        padding-right: 6px;
+    }
+    .storechild2 {
+        flex-basis: 20% !important;
+        padding: 15px 0;
+    }
+    .imgesside {
+        width: 100%;
+        height: 372px;
+    }
+}
+@media screen and (min-width:1200px) {
+        .menu{
+        height:30px;
+    }
+    .menu2 {
+        height: 45px;
+    }
+    .expressdiv .expresschild {
+        flex-basis: 17%;
+    }
+    .expressdiv {
+        padding-right: 50px;
+    }
+}

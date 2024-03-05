@@ -1,0 +1,1029 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../BootStarp/Content/bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="responsive.css" rel="stylesheet" />
+    <link href="styleflex.css" rel="stylesheet" />
+    <script src="../BootStarp/JS/jquery-3.7.1.min.js"></script>
+
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <script src="../BootStarp/JS/popper.min.js"></script>
+    <script src="../BootStarp/JS/bootstrap.min.js"></script>
+    <link href="../Content/font-awesome.css" rel="stylesheet" />
+
+    <!--<link href="assets/css/docs.theme.min.css" rel="stylesheet" />-->
+    <link href="assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="text-center" style="height:90px;">
+                    <img src="../Images/ThemeImage/logo.png" />
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="text-center" style="height: 90px;">
+                    <form action="/" method="get">
+                        <input class="inputsearch" type="text" placeholder="عبارت مورد نظر را جستجو کنید" />
+                        <span class="searching searchIcon btn btn-danger">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+                <div class="text-center" style="height: 90px;">
+                    <div class="dropdown show">
+                        <button class="btnenter dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ورود /ثبت نام
+                        </button>
+                        <div class="menuenter dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div class="text-center dropdown-item" style="">
+                                <a style="background-color:dodgerblue;color:white;font-size:15px;border-radius:5px;padding:8px 15px;text-align:center;" class="adropddown dropdown-item" href="#">ورود به دیجی کالا</a>
+                            </div>
+                            <div class="text-right dropdown-item">
+                                <span style="font-size:13px;" class="btn ">
+                                    کابر جدید هستید
+                                </span>
+                                <a style="border-bottom:2px dotted blue;color:blue;" class="adropddown" href="#">ثبت نام</a>
+                            </div>
+                            <div class="text-right dropdown-item">
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                <a class="adropddown" href="#">پروفایل</a>
+                            </div>
+                            <div class="text-right dropdown-item">
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                <a class="adropddown" href="#">پروفایل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+                <div class="text-center" style=" height: 90px;">
+                    <div class="dropdown">
+                        <button class=" btn dropdown-toggle" style="width:200px;background-color:var(--bluecolor);color:#fff;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <span> سبد خرید</span>
+                        </button>
+                        <div class="dropdown-menu mb-0" style="width:310px;" aria-labelledby="dropdownMenuButton">
+                            <div class="text-center dropdown-item">
+                                <span class="price text-right">مبلغ کل خرید:</span>
+                                <span class="price text-right text-danger">23500</span>
+                                <a class="buybutton text-left" href="#">مشاهده سبد خرید</a>
+                            </div>
+                            <a href="#" style="text-decoration:none;">
+                                <div class="row p-4">
+                                    <img src="../Images/ProductImages/r7ChlzTM5Kse_t1.png" />
+                                    <div class="text-right">
+                                        <h6 class="text-secondary"> هندزفیری بلوتوث مدل S530</h6>
+                                        <span class="productbuy text-secondary" style=" border-left: 1px solid gray;">1عدد</span>
+                                        <span class="productbuy text-secondary">رنگ مشکی</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="text-center bg-primary pb-2 pt-2">
+                                <a href="#" class=" text-light" style="text-decoration:none;">
+                                    ورود و ثبت سفارش
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-12 menu-nav bg-secondary pt-3 mb-4">
+                <ul class="ul-menu">
+                    <li class="li-menu">
+                        <a class="a-menu" href="#">
+                            کالای دیجیتال
+                            <div class="layer-2">
+                                <div class="linkbox">
+                                    <ul>
+                                        <li class="menu-li-2">
+                                            لوازم جانبی موبایل
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="menu-li-2">
+                                            لوازم جانبی موبایل
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="linkbox">
+                                    <ul>
+                                        <li class="menu-li-2">
+                                            لوازم جانبی موبایل
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="linkbox">
+                                    <ul>
+                                        <li class="menu-li-2">
+                                            لوازم جانبی موبایل
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="menu-li-2">
+                                            لوازم جانبی موبایل
+                                            <ul>
+                                                <li class="menu-li-3">کاور گوشی و تبلت</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu" href="#">
+                            آرایشی،بهداشت و سلامت
+                        </a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">
+                            خودرو،ابزار و اداری
+                        </a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">مد و پوشاک</a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">خانه و آشپزخانه</a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">کتاب و لوازم التحریر</a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">ورزش و سفر</a>
+                    </li>
+                    <li class="li-menu">
+                        <a class="a-menu " href="#">وسایل نقلیه صنعتی</a>
+                    </li>
+                </ul>
+                <ul class="ul-menu2">
+                    <li class="li-menu2">
+                        <a class="a-menu2 " href="#">شگفت انگیزها</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img class="imgbook img-fluid d-block mx-auto rounded" src="../Images/ThemeImage/banner.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <img class="imgside img-fluid d-block mx-auto" src="../Images/ThemeImage/1455.jpg" />
+            </div>
+            <div class="col-9">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../Images/AdvertisementImages/1.jpg" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/AdvertisementImages/2.jpg" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/AdvertisementImages/3.jpg" class="d-block w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="colkhas col-3 text-center">
+                <div class="divaslitamas">
+                    <div>
+                        <img class="imgtamas img-fluid d-block mx-auto" src="../Images/ProductImages/payment-terms.svg" />
+                        <h6 class="texttamas">پرداخت در محل</h6>
+                    </div>
+                    <div class="divimgtamas row">
+                        <div>
+                            <img style="height:60px;"class="imgtamas img-fluid" src="../Images/ProductImages/contact-us.svg" />
+                            <h6 class="texttamas">پشتیبانی 24 ساعته</h6>
+                        </div>
+                        <div>
+                            <img style="width:60px;height:60px;" class="imgtamas img-fluid" src="../Images/ProductImages/delivery.svg" />
+                            <h6 class="texttamas">تحویل اکسپرس</h6>
+                        </div>
+                    </div>
+                    <div class="divimgtamas row">
+                        <div>
+                            <img class="imgtamas img-fluid" src="../Images/ProductImages/origin-guarantee.svg" />
+                            <h6 class="texttamas">تضمین بهترین قیمت</h6>
+                        </div>
+                        <div>
+                            <img class="imgtamas img-fluid" src="../Images/ProductImages/return-policy.svg" />
+                            <h6 class="texttamas">ضمانت برگشت</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="divasliprice">
+                    <div id="carouselExampleIndicators" class="carousel col-12 slide" data-ride="carousel">
+                        <h6 style="border-bottom:1px solid var(--redcolor);" class="text-right pb-2">پیشنهاد لحظه ای</h6>
+                        <ol class="carousel-indicators align-bottom">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel text-center">
+                            <div class="carousel-item active">
+                                <img class="img-fluid d-block mx-auto" src="../Images/ProductImages/1/19a2cc-200x200.jpg" alt="First slide">
+                                <div class="mt-4">
+                                    <p class="text-secondary">
+                                        لپ تاپ ۱۵ اینچی اپل مدل ۲۰۱۷ MacBook Pro MPTT2 همراه با
+                                        تاچ
+                                        بار
+                                    </p>
+                                </div><hr />
+                                <s>
+                                    254000 تومان
+                                </s><br />
+                                <span class="priceside"> 243600 تومان</span>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img class="img-fluid d-block mx-auto" src="../Images/ProductImages/1/692674-200x200.jpg" alt="Second slide">
+                                <div class="mt-4">
+                                    <p class="text-secondary">
+                                        لپ تاپ ۱۵ اینچی اپل مدل ۲۰۱۷ MacBook Pro MPTT2 همراه با
+                                        تاچ
+                                        بار
+                                    </p>
+                                </div><hr />
+                                <s>
+                                    254000 تومان
+                                </s><br />
+                                <span class="priceside"> 243600 تومان</span>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img class="img-fluid d-block mx-auto" src="../Images/ProductImages/1/e75a73-200x200.jpg" alt="Third slide">
+                                <div class="mt-4">
+                                    <p class="text-secondary">
+                                        لپ تاپ ۱۵ اینچی اپل مدل ۲۰۱۷ MacBook Pro MPTT2 همراه با
+                                        تاچ
+                                        بار
+                                    </p>
+                                </div><hr />
+                                <s>
+                                    254000 تومان
+                                </s><br />
+                                <span class="priceside"> 243600 تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1000001422.jpg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1000001322.jpg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/8d546388-29d7-4733-871f-2d84a3012cc227_21_1_6.jpeg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1000001442.jpg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1455.jpg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1000001322.jpg" />
+                </a>
+                <a href="#">
+                    <img class="imgesside mt-4" src="../Images/ThemeImage/1000001422.jpg" />
+                </a>
+            </div>
+            <div class="col-9">
+                <div class="boxshegeft mt-3" style="">
+                    <div class=" pishnahad">
+                        <div class="picspishnahad">
+                            <div calass="boxmark" style=" padding-top: 7px; text-align: center; height: 50px; background-color: var(--redcolor); border-radius: 0px 0px 20px 20px;">
+                                <h4 style="color:white;font-family:'B Yekan';">پیشنهاد شگفت انگیز</h4>
+                            </div>
+                            <div id="carouselshegeft">
+                                <img src="../Images/ProductImages/1/e75a73-200x200.jpg">
+                            </div>
+                        </div>
+                        <div class="textspishnahad">
+                            <div id="div1" style="">
+                                <s>25400 تومان</s>
+                                <h4 style="color:var(--redcolor);">
+                                    23000 تومان
+                                    <button class="pr-3 pl-3 pt-2" style="background-color:var(--redcolor);border:none;color:white;border-radius:25px;"><h6> 6 % تخفیف</h6></button>
+                                </h4>
+                                <p class="vivo pt-4">
+                                    لپ تاپ ۱۵ اینچی ایسوس مدل VivoBook Flip TP510UQ – C
+                                </p>
+                            </div>
+                            <div id="div2">
+                                <ul>
+                                    <li class="lidiv2"> رنگ خاکستری</li>
+                                    <li class="lidiv2">160گیگابایت</li>
+                                </ul>
+                            </div>
+                            <div id="div3" style="">
+                                <span>0:0:0:0</span>
+                                <h6>زمان باقی مانده تا پایان سفارش</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pishnahad2">
+                        <ul class="ulpishnahad2">
+                            <li class="lipishnahad2" style="background-color: var(--redcolor); color: white; display: block; padding-top: 9px; padding-bottom: 9px; padding-right: 7px; position: relative; right: -40px; ">
+                                <div class="shape"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                            <li class="lipishnahad2">
+                                <div class="shape2"></div>
+                                لپ تاپ inspiron
+                            </li>
+                        </ul>
+                        <div style="text-align: right; background-color: var(--bluecolor); position: relative; border-bottom-left-radius: var(--radius); ">
+                            <a id="seeall" href="#">
+                                <i style="" class="iall fa fa-arrow-left" aria-hidden="true"></i>
+                                مشاهده همه شگفت انگیزها
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 rowkhas">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <a href="#"><img class="img-fluid rounded mt-3" src="../Images/ProductImages/2/banner-1.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <a href="#"><img class="img-fluid rounded mt-3" src="../Images/ProductImages/2/banner-2.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <a href="#"><img class="img-fluid rounded mt-3" src="../Images/ProductImages/2/banner-3.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <a href="#"><img class="img-fluid rounded mt-3" src="../Images/ProductImages/2/banner-4.jpg" /></a>
+                    </div>
+                    <div class="col-12 mt-4" style="height:auto; background-color: white; border-radius: var(--radius); padding: 10px;">
+                        <div class="row pr-5 pt-4">
+                            <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:97%;">
+                                <span class="pr-4 pb-4" style="border-bottom:2px solid red;font-size:16px;">
+                                    کامپیوتر و لوازم جانبی
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="owl-carousel owl-theme" style="font-size:14px;">
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ ۱۵ اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 16 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/4ff777-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 17 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/60eb20-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 18 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/c8297f-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 19 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 20 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 21 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            rtl: true,
+                            loop: true,
+                            margin: 10,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                550: {
+                                    items: 2
+                                },
+                                750: {
+                                    items: 3
+                                },
+                                1380: {
+                                    items: 4
+                                }
+                            }
+                        })
+                    </script>
+                    <div class="col-12 mt-4" style="height:auto; background-color: white; border-radius: var(--radius); padding: 10px; ">
+                        <div class="row pr-5 pt-4">
+                            <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:97%;">
+                                <span class="pr-4 pb-4" style="border-bottom:2px solid red;font-size:16px;">
+                                    کامپیوتر و لوازم جانبی
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="owl-carousel owl-theme" style="font-size:14px;">
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ ۱۵ اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 16 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/4ff777-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 17 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/60eb20-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 18 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/c8297f-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 19 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 20 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 21 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            rtl: true,
+                            loop: true,
+                            margin: 10,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                550: {
+                                    items: 2
+                                },
+                                750: {
+                                    items: 3
+                                },
+                                1380: {
+                                    items: 4
+                                }
+                            }
+                        })
+                    </script>
+                    <div class="col-12 mt-4" style="display:flex;flex-direction:row;justify-content:space-around;flex-wrap:wrap;">
+                        <a href="#"><img style="width:520px;height:200px;" class="img-fluid rounded mb-3" src="../Images/ThemeImage/11/banner-10.jpg" /></a>
+                        <a href="#"><img style="width:520px;height:200px;" class="img-fluid rounded mb-1" src="../Images/ThemeImage/11/banner-9.jpg" /></a>
+                    </div>
+                    <div class="col-12 mt-5 avalislide" style="height:auto; background-color: white; border-radius: var(--radius); padding: 10px;">
+                        <div class="row pr-5 pt-4">
+                            <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:97%;">
+                                <span class="pr-4 pb-4" style="border-bottom:2px solid red;font-size:16px;">
+                                    کامپیوتر و لوازم جانبی
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="owl-carousel owl-theme" style="font-size:14px;">
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ ۱۵ اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 16 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/4ff777-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 17 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/60eb20-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 18 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/c8297f-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 19 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 20 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 21 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            rtl: true,
+                            loop: true,
+                            margin: 10,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                550: {
+                                    items: 2
+                                },
+                                750: {
+                                    items: 3
+                                },
+                                1380: {
+                                    items: 4
+                                }
+                            }
+                        })
+                    </script>
+                    <div class="col-12 mt-4 avalislide" style="height:auto; background-color: white; border-radius: var(--radius); padding: 10px;">
+                        <div class="row pr-5 pt-4">
+                            <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:97%;">
+                                <span class="pr-4 pb-4" style="border-bottom:2px solid red;font-size:16px;">
+                                    کامپیوتر و لوازم جانبی
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="owl-carousel owl-theme" style="font-size:14px;">
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ ۱۵ اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 16 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/4ff777-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 17 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/60eb20-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 18 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/c8297f-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 19 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 20 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 21 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            rtl: true,
+                            loop: true,
+                            margin: 10,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                550: {
+                                    items: 2
+                                },
+                                750: {
+                                    items: 3
+                                },
+                                1380: {
+                                    items: 4
+                                }
+                            }
+                        })
+                    </script>
+                    <div class="col-12 mt-3" style="display:flex;flex-direction:row;justify-content:space-around;">
+                        <a href="#"><img style="" class="img-fluid rounded" src="../Images/ThemeImage/11/banner-11.jpg" /></a>
+                    </div>
+                    <div class="col-12 mt-4 avalislide" style="height:auto; background-color: white; border-radius: var(--radius); padding: 10px;">
+                        <div class="row pr-5 pt-4">
+                            <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:97%;">
+                                <span class="pr-4 pb-4" style="border-bottom:2px solid red;font-size:16px;">
+                                    کامپیوتر و لوازم جانبی
+                                </span>
+                            </h5>
+                        </div>
+                        <div class="owl-carousel owl-theme" style="font-size:14px;">
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ ۱۵ اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 16 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/4ff777-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 17 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/60eb20-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 18 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/c8297f-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 19 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/19a2cc-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 20 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                            <div class="item text-center p-4">
+                                <a><img src="../Images/ProductImages/3/35a2b8-200x200.jpg" /></a>
+                                <a><p>لپ تاپ 21 اینچی دل مدل XPS 15-9560</p></a>
+                                <s>236500</s>
+                                <h3 style="color:var(--redcolor);">200000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            rtl: true,
+                            loop: true,
+                            margin: 10,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                550: {
+                                    items: 2
+                                },
+                                750: {
+                                    items: 3
+                                },
+                                1380: {
+                                    items: 4
+                                }
+                            }
+                        })
+                    </script>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="col-12 mt-4 p-4" style="box-shadow:1px 1px 5px gray; height:auto;background-color:white;border-radius:var(--radius);box-sizing:border-box;">
+            <div class="row pr-5">
+                <h5 class="text-right pr-4 pb-4" style="border-bottom:1px solid gray;width:95%;">
+                    <span class="pr-4 pb-4" style="border-bottom:1px solid red;">
+                        برندهای ویژه
+                    </span>
+                </h5>
+            </div>
+            <img class="parskhazarina img-fluid rounded p-4" src="../Images/AdvertisementImages/1076.png" />
+            <img class="parskhazarina img-fluid rounded p-4" src="../Images/AdvertisementImages/1078.png" />
+            <img class="parskhazarina img-fluid rounded p-4" src="../Images/AdvertisementImages/1080.png" />
+            <img class="parskhazarina img-fluid rounded p-4" src="../Images/AdvertisementImages/5189.png" />
+            <img class="parskhazarina img-fluid rounded p-4" src="../Images/AdvertisementImages/2315.png" />
+        </div>
+    </div><br/><br /><br /><hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h5 class="text-center">
+                    <i style="color:white;font-size:30px;background-color:#cfd8dc;border-radius:100px;width:45px; "class="fa fa-angle-up p-2 ml-3 " aria-hidden="true"></i>بازگشت به بالا
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-4">
+               <div style="" class=" expressdiv row pt-4 pb-4">
+                    <div class="expresschild col-2 ml-3"> 
+                        <img style="width:110px;height:110px;" class="tamas2 rounded p-4" src="../Images/ProductImages/delivery.svg" />
+                        <h6>تحویل اکسپرس</h6>
+                    </div>
+                    <div class="expresschild col-2 ml-5">
+                        <img style="width:110px;height:110px;" class="tamas2 rounded p-4" src="../Images/ProductImages/origin-guarantee.svg" />
+                        <h6>ضمانت اصل بودن کالا</h6>
+                    </div>
+                    <div class="expresschild col-2 ml-5">
+                        <img style="width:110px;height:110px;" class="tamas2 rounded p-4" src="../Images/ProductImages/payment-terms.svg" />
+                        <h6>پرداخت درمحل</h6>
+                    </div>
+                    <div class="expresschild col-2  ml-5">
+                        <img style="width:110px;height:110px;" class="tamas2 rounded p-4" src="../Images/ProductImages/return-policy.svg" />
+                        <h6>تحویل اکسپرس</h6>
+                    </div>
+                    <div class="expresschild col-2 ml-5">
+                        <img style="width:110px;height:110px;" class="tamas2 rounded p-4" src="../Images/ProductImages/contact-us.svg" />
+                        <h6>پشتیبانی 24 ساعته</h6>
+                    </div>
+                </div>
+               </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerfather">
+            <div class="footerchild">
+                <ul class="ulfooter">
+                    <li class="lifooter">
+                        <b>راهنمای خرید از تاپ کالا</b>
+                        <a href="#" class="afooter pt-4">
+                            نحوه ثبت سفارش
+                        </a>
+                        <a href="#" class="afooter">
+                            نحوه ثبت سفارش
+                        </a>
+                        <a href="#" class="afooter">
+                            نحوه ثبت سفارش
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerchild">
+                <ul class="ulfooter">
+                    <li class="lifooter">
+                        <b> خدمات مشتریان</b>
+                        <a href="#" class="afooter pt-4">
+                            پاسخ به پرسش‌های متداول
+                        </a>
+                        <a href="#" class="afooter">
+                            رویه‌های بازگرداندن کالا
+                        </a>
+                        <a href="#" class="afooter">
+                            شرایط استفاده
+                        </a>
+                        <a href="#" class="afooter">
+                            حریم خصوصی
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerchild">
+                <ul class="ulfooter">
+                    <li class="lifooter">
+                        <b> با تاپ کالا</b>
+                        <a href="#" class="afooter pt-4">
+                            فروش در تاپ کالا
+                        </a>
+                        <a href="#" class="afooter">
+                            همکاری با سازمان‌ها
+                        </a>
+                        <a href="#" class="afooter">
+                            فرصت‌های شغلی
+                        </a>
+                        <a href="#" class="afooter">
+                            تماس با تاپ کالا
+                        </a>
+                        <a href="#" class="afooter">
+                            درباره تاپ کالا
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerchild pt-4 pr-2 pb-2" style="flex-basis:32%;">
+                <h6 class="pb-3">
+                    از تخفیف‌ها و جدیدترین‌های فروشگاه باخبر شوید:
+                </h6>
+                <form>
+                    <input class="inputfooter text-light bg-light" type="text" placeholder="آدرس ایمیل خود را وارد کنید" />
+                    <button class="btnfooter" type="submit">ارسال</button>
+                </form>
+                <p class="pt-4">ما را در شبکه های اجتماعی دنبال کنید</p>
+                <button class="btninsta"><i class="pl-2 fa fa-instagram" aria-hidden="true"></i>اینستاگرام تاپ کالا</button>
+            </div>
+        </div>
+        <div class="footerfather p-4">
+            <div class="footerchild pr-4" style="flex-basis:35%;">هفت روز هفته ، 24 ساعت شبانه‌روز پاسخگوی شما هستیم.</div>
+            <div class="footerchild" style="flex-basis:20%;">شماره تماس: 021-123456789</div>
+            <div class="footerchild" style="flex-basis:20%;">آدرس ایمیل:info@digikala.com</div>
+            <div class="footerchild mt-3" style="flex-basis:25%;">
+                <img src="../Images/ThemeImage/bazzar.png" />
+                <img src="../Images/ThemeImage/sibapp.png" />
+            </div>
+        </div>
+        <div class="store p-3">
+            <div class="storechild text-justify pr-4" style="flex-basis:95%;text-align:center;">
+                <h6 style="font-weight:bold;line-height:55px;">فروشگاه اینترنتی تاپ کالا، بررسی، انتخاب و خرید آنلاین</h6>
+                <p style="font-size:13px;line-height:25px;">تاپ کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل کلیدی، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به تاپ کالا با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.</p>
+            </div>
+            <div class="storechild" style="flex-basis:45%;">
+                <img  class="p-3" src="../Images/ThemeImage/enamad/symbol-01.png" />
+                <img class="p-3" src="../Images/ThemeImage/enamad/symbol-02.png" />
+            </div>
+        </div>
+        <div class="store pb-5">
+            <div class="storechild2" style="flex-basis:20%;">
+                <img src="../Images/ThemeImage/enamad/1.svg" />
+            </div>
+            <div class="storechild2" style="flex-basis:20%;">
+                <img src="../Images/ThemeImage/enamad/2.svg" />
+            </div>
+            <div class="storechild2" style="flex-basis:20%;">
+                <img src="../Images/ThemeImage/enamad/3.svg" />
+            </div>
+            <div class="storechild2" style="flex-basis:20%;">
+                <img src="../Images/ThemeImage/enamad/4.svg" />
+            </div>
+        </div>
+        <p class="text-center p-3"style="font-size: 12px; background-color: #d8dde0;">استفاده از مطالب فروشگاه اینترنتی تاپ کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین تاپ کالا) می‌باشد.</p>
+    </footer>
+</body>
+</html>
